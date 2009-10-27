@@ -14,6 +14,15 @@ web data access components, COM+ and related Microsoft technologies.
 DebugDiag 1.0 was released as part of the IIS Diagnostic toolkit and as a standalone tool.
 DebugDiag 1.1 is currently available as a standalone tool.
 
+| Version:         | Date Published: |
+|------------------|-----------------|
+| 1.1              | 10/27/2009      |
+
+| File Name:       | File Size:      |
+|------------------|-----------------|
+| DebugDiag.msi    | 4.9 MB          |
+| DebugDiagx64.msi | 10.6 MB         |
+
 
 ## Overview
 
