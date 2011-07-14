@@ -11,18 +11,18 @@ slow performance, memory leaks or fragmentation, and crashes in any user-mode pr
 The tool includes additional debugging scripts focused on Internet Information Services (IIS) applications,
 web data access components, COM+ and related Microsoft technologies.
 
-DebugDiag 1.0 was released as part of the IIS Diagnostic toolkit and as a standalone tool.
-DebugDiag 1.1 is currently available as a standalone tool.
-
 | Version:         | Date Published: |
 |------------------|-----------------|
-| 1.1              | 10/27/2009      |
+| 1.2              | 7/14/2011       |
 
 | File Name:       | File Size:      |
 |------------------|-----------------|
-| DebugDiag.msi    | 4.9 MB          |
-| DebugDiagx64.msi | 10.6 MB         |
+| DebugDiagx86.msi | 11.7 MB         |
+| DebugDiagx64.msi | 16.1 MB         |
 
+* DebugDiag 1.0 was released as part of the IIS Diagnostic Toolkit and as a standalone tool (x86 only).
+* DebugDiag 1.1 was released as a standalone tool only (x86 and limited x64 support).
+* DebugDiag 1.2 is currently available as a standalone tool only (x86 and full x64 support).
 
 ## Overview
 
@@ -33,12 +33,12 @@ It is composed of the following 3 components: a debugging service, a debugger ho
 
 ## The Debugging Service
 
-The debugger service (DbgSvc.exe) performs the following tasks:
+The Debugging Service The debugger service (DbgSvc.exe) performs the following tasks:
 
 * Attach/Detach the host to processes
 * Collect performance monitor data
 * Implement HTTP ping to detect hangs
-* Inject leak monitor in running processes
+* Inject leak monitor into running processes
 * Collect debugging session state information
 * Shows the state of each rule defined
 
@@ -57,8 +57,8 @@ automate the creation of control scripts and show the status of running processe
 
 It is composed of 3 views:
 
-* **Rules**: Creates control script for the debugger host through a wizard. The script is located under `\scripts`
-* **Advanced** Analysis: Runs a selected **Analysis Script** against one or more memory dumps.
-* **Processes**: Shows status of running processes/services
+* **Rules**: Creates control script for the debugger host through a wizard. The script is located under `\scripts`.
+* **Advanced Analysis**: Runs a selected **Analysis Script** against one or more memory dumps.
+* **Processes**: Shows status of running processes/services.
 
-> **Note:** DebugDiagAnalysisOnly.exe does not require elevation on operating systems beginning with Vista, so it only contains the Advanced Analysis view.
+> **Note:** DebugDiagAnalysisOnly.exe does not require elevation on operating systems beginning with Windows Vista, so it only contains the Advanced Analysis view.
