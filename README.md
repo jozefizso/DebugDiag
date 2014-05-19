@@ -15,7 +15,7 @@ This new analysis engine simplifies analysis rule development in .NET.
 
 | Version:         | Date Published: |
 |------------------|-----------------|
-| 2.0              | 10/2/2013       |
+| 2.1.0.7          | 5/19/2014       |
 
 | File Name:       | File Size:      |
 |------------------|-----------------|
@@ -26,6 +26,7 @@ This new analysis engine simplifies analysis rule development in .NET.
 * DebugDiag 1.1 was released as a standalone tool only (x86 and limited x64 support).
 * DebugDiag 1.2 is currently available as a standalone tool only (x86 and full x64 support).
 * DebugDiag 2.0 is currently available as a standalone tool only (x86 and full x64 support).
+* DebugDiag 2.1 is currently available as a standalone tool only (x86 and full x64 support).
 
 ## Overview
 
