@@ -12,21 +12,23 @@ The tool includes additional debugging scripts focused on Internet Information S
 web data access components, COM+ and related Microsoft technologies.
 Debugdiag 2.0 introduces a new analysis engine host with built-in reporting framework that can be accessed from .NET.
 This new analysis engine simplifies analysis rule development in .NET.
+Starting with Debugdiag 2.0, the analysis engine relies on Microsoft.Diagnostics.Runtime for .NET analysis.
 
 | Version:         | Date Published: |
 |------------------|-----------------|
-| 2.1.0.7          | 5/19/2014       |
+| 2.2.0.14         | 11/13/2015      |
 
 | File Name:       | File Size:      |
 |------------------|-----------------|
-| DebugDiagx86.msi | 16.6 MB         |
-| DebugDiagx64.msi | 21.4 MB         |
+| DebugDiagx86.msi | 17.3 MB         |
+| DebugDiagx64.msi | 22.1 MB         |
 
 * DebugDiag 1.0 was released as part of the IIS Diagnostic Toolkit and as a standalone tool (x86 only).
 * DebugDiag 1.1 was released as a standalone tool only (x86 and limited x64 support).
 * DebugDiag 1.2 is currently available as a standalone tool only (x86 and full x64 support).
 * DebugDiag 2.0 is currently available as a standalone tool only (x86 and full x64 support).
 * DebugDiag 2.1 is currently available as a standalone tool only (x86 and full x64 support).
+* DebugDiag 2.2 is currently available as a standalone tool only (x86 and full x64 support).
 
 ## Overview
 
